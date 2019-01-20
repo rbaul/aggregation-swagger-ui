@@ -1,0 +1,3 @@
+rootProject.name = 'aggregation-swagger-ui'
+include 'swagger-api-doc-samples'
+

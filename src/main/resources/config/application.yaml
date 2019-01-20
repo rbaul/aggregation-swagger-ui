@@ -1,0 +1,13 @@
+spring:
+
+  profiles:
+    include: swagger-doc-config
+
+server:
+  servlet:
+    context-path: /
+  port: 8080
+
+application:
+  title: "Aggregation swagger UI server"
+  formatted-version: "development"

@@ -1,0 +1,21 @@
+documentation:
+  baseurl: http://localhost:8081
+  swagger:
+    api-docs:
+      -
+        name: Swagger Petstore 1
+        url: https://petstore.swagger.io/v2/swagger.json
+        version: 2.0
+      -
+        name: Sample Group 1
+        url: ${documentation.baseurl}/v2/api-docs?group=Samples%20Group%201
+        version: 2.0
+      -
+        name: Sample Group 2
+        url: ${documentation.baseurl}/v2/api-docs?group=Samples%20Group%202
+        version: 2.0
+    resources:
+      -
+        name: Sample Service resource
+        url: ${documentation.baseurl}/swagger-resources
+

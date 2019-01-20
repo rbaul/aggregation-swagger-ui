@@ -1,0 +1,7 @@
+server:
+  context-path: /
+  port: 8081
+
+application:
+  title: "Swagger API documentation samples"
+  formatted-version: "development"
